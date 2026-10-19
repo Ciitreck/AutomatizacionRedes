@@ -41,13 +41,14 @@ AUTOMATIZACION-REDES/
     └── practica-03/
         ├── README.md          ← este archivo
         └── evidencias/
-            ├── evidencia_1.jpeg   ← estructura del repositorio
-            ├── evidencia_2.jpeg   ← código desarrollado (variables)
-            ├── evidencia_3.jpeg   ← ejecución del programa (variables)
-            ├── evidencia_4.jpeg   ← R1 y R2 representados
-            ├── evidencia_5.jpeg   ← código con la lista de dispositivos
-            ├── evidencia_6.jpeg   ← ejecución mostrando todos los dispositivos
-            └── evidencia_7.jpeg   ← repositorio actualizado en GitHub
+            ├── Evidencia_1.png   ← estructura del repositorio, código de variables y su ejecución
+            ├── Evidencia_2.png   ← R1 y R2 representados
+            ├── Evidencia_3.png   ← diccionario de R1
+            ├── Evidencia_4.png   ← lista de dispositivos, ciclo for y ejecución
+            ├── Evidencia_5.png   ← condicional if
+            ├── Evidencia_6.png   ← función mostrar_dispositivo()
+            ├── Evidencia_7.png   ← código final con datos adicionales y su ejecución
+            └── Evidencia_8.png   ← repositorio actualizado en GitHub
 ```
 
 ---
@@ -85,7 +86,7 @@ Se usaron los dispositivos de la **Topología 02**, con los mismos nombres e IPs
 
 Se abrió el repositorio en Visual Studio Code, se actualizó con `git pull` y se crearon `src/dispositivos.py` y la carpeta `docs/practica-03/` con su `README.md` y `evidencias/`.
 
-![Evidencia 1](evidencias/evidencia_1.jpeg)
+![Evidencia 1 — Estructura del repositorio](evidencias/Evidencia_1.png)
 
 ### Parte 2 — Variables y `print()`
 
@@ -113,15 +114,15 @@ print("Estado:", estado)
 | `interfaz` | Interfaz de red principal | `str` | Indica por dónde se conecta y dónde se aplica la configuración |
 | `estado` | Condición operativa | `str` | Indica si el equipo está disponible o requiere atención |
 
-![Evidencia 2 — Código](evidencias/evidencia_2.jpeg)
+En la misma captura se ven el código (Evidencia 2) y la ejecución correcta (Evidencia 3):
 
-![Evidencia 3 — Ejecución](evidencias/evidencia_3.jpeg)
+![Evidencias 2 y 3 — Código y ejecución](evidencias/Evidencia_1.png)
 
 ### Parte 3 — Dispositivos de la red simulada
 
 Se modificó el programa para representar R1 y R2 con los datos reales de la Práctica 2 (IP, loopback, interfaz y estado).
 
-![Evidencia 4 — R1 y R2](evidencias/evidencia_4.jpeg)
+![Evidencia 4 — R1 y R2](evidencias/Evidencia_2.png)
 
 ### Parte 4 — Diccionario
 
@@ -142,6 +143,8 @@ print("Dirección IP:", router1["ip"])
 print("Estado:", router1["estado"])
 ```
 
+![Diccionario de R1](evidencias/Evidencia_3.png)
+
 ### Parte 5 — Lista de dispositivos y ciclo `for`
 
 Los tres dispositivos de la topología se guardaron en una **lista de diccionarios** y se recorrieron con un ciclo `for`:
@@ -155,9 +158,7 @@ for dispositivo in dispositivos:
     print("--------------------")
 ```
 
-![Evidencia 5 — Código con la lista](evidencias/evidencia_5.jpeg)
-
-![Evidencia 6 — Ejecución](evidencias/evidencia_6.jpeg)
+![Evidencias 5 y 6 — Lista de dispositivos, código y ejecución](evidencias/Evidencia_4.png)
 
 ### Parte 6 — Decisión con `if`
 
@@ -172,6 +173,8 @@ for dispositivo in dispositivos:
 
 Al cambiar intencionalmente el estado de un dispositivo a `"Fuera de servicio"`, el programa dejó de decir que estaba disponible y mostró **"El dispositivo requiere atención."**
 
+![Condicional if](evidencias/Evidencia_5.png)
+
 ### Parte 7 — Función
 
 ```python
@@ -184,6 +187,8 @@ def mostrar_dispositivo(dispositivo):
 
 Usar una función permite escribir el código **una sola vez** y reutilizarlo para cualquier dispositivo; si se quiere cambiar la forma de mostrar los datos, se modifica en un solo lugar.
 
+![Función mostrar_dispositivo](evidencias/Evidencia_6.png)
+
 ### Parte 8 — Reto de automatización: datos adicionales
 
 A cada dispositivo se le agregaron más datos y se actualizó la función para mostrarlos:
@@ -194,6 +199,8 @@ A cada dispositivo se le agregaron más datos y se actualizó la función para m
 | `sistema` | Cisco IOSv 15.9(3)M6 | Cisco IOSv 15.9(3)M6 | Cisco IOSvL2 15.2 |
 | `protocolo` | OSPF (proceso 1, área 0) | OSPF (proceso 1, área 0) | N/A |
 | `funcion` | Enrutamiento | Enrutamiento | Conectividad |
+
+![Código final y ejecución](evidencias/Evidencia_7.png)
 
 ### Reto final — Buscar un dispositivo por nombre
 
@@ -222,6 +229,10 @@ Estado: Activo
 ```
 
 Si el nombre no existe, el programa muestra `Dispositivo no encontrado.`
+
+### Repositorio actualizado en GitHub
+
+![Evidencia 7 — Repositorio en GitHub](evidencias/Evidencia_8.png)
 
 ---
 
