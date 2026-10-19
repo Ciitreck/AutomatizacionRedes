@@ -72,6 +72,31 @@ docker build -t automatizacion-redes .
 docker run --rm automatizacion-redes
 ```
 
-## 📄 Licencia
 
+## Avance del proyecto integrador
+ 
+### Práctica 1
+Preparación de la estación de automatización de redes.
+Estado: Completada.
+ 
+### Práctica 2
+Construcción de la red simulada en GNS3.
+Estado: Completada.
+Documentación: [docs/practica-02](docs/practica-02/README.md)
+ 
+### Práctica 3
+Primer programa de Python para representar información de dispositivos.
+Estado: Completada.
+ 
+Se desarrolló un programa en Python capaz de representar y mostrar
+información básica de los dispositivos de la infraestructura simulada.
+Código: [src/dispositivos.py](src/dispositivos.py)
+Documentación: [docs/practica-03](docs/practica-03/README.md)
+ 
+Próximo paso:
+Desarrollar programas que permitan procesar y automatizar información
+relacionada con la infraestructura de red.
+ 
+## 📄 Licencia
+ 
 Este proyecto está bajo la licencia [MIT](LICENSE).
