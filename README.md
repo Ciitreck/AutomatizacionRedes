@@ -100,3 +100,10 @@ relacionada con la infraestructura de red.
 ## 📄 Licencia
  
 Este proyecto está bajo la licencia [MIT](LICENSE).
+
+### Practica 4
+Estado: Completada.
+Descripcion: Identificamos y analizamos las paginas oficiales y los foros de ayuda de Python, GNS3 y Netmiko. Tambien armamos una guia en equipo para saber como buscar errores de codigo y dejar todo guardado en nuestro repositorio.
+ 
+Proximo paso: Seguir programando los scripts en Python y usar estas paginas de ayuda cuando algo no funcione en la red.
+
