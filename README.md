@@ -107,3 +107,11 @@ Descripcion: Identificamos y analizamos las paginas oficiales y los foros de ayu
  
 Proximo paso: Seguir programando los scripts en Python y usar estas paginas de ayuda cuando algo no funcione en la red.
 
+### Actividad 2.4
+Exploración de Cisco DevNet y las certificaciones de automatización de Cisco.
+Estado: Completada.
+Descripción: Se revisaron los recursos de Cisco DevNet (documentación, Learning Labs, Sandbox y Code Exchange) y las certificaciones vigentes de la ruta Cisco Automation (CCNA, CCNP y CCIE Automation), que sustituyó a la ruta DevNet el 3 de febrero de 2026.
+Documentación: [docs/actividad-devnet](docs/actividad-devnet/README.md) · Reporte: [reporte.pdf](docs/actividad-devnet/reporte.pdf)
+
+Próximo paso: Practicar SSH, RESTCONF y NETCONF en el Sandbox de DevNet antes de conectar Python a los routers de GNS3.
+
