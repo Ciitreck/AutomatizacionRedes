@@ -6,7 +6,7 @@
 | **Profesor** | Victor Alejandro Galvan Guerra |
 | **Grupo** | 3IRI3V |
 | **Fecha** | 29 de octubre de 2026 |
-| **Alumno** | José Emilio Montes Villarreal |
+| **Equipo** | José Emilio Montes Villarreal, Carlos Martín Cobos Hernández y Erik Osiel Camarillo Espinoza |
 
 ## Propósito
 
