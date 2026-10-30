@@ -72,49 +72,41 @@ docker build -t automatizacion-redes .
 docker run --rm automatizacion-redes
 ```
 
+## 📈 Avance del proyecto integrador
 
-## Avance del proyecto integrador
- 
 ### Práctica 1
 Preparación de la estación de automatización de redes.
 Estado: Completada.
- 
+
 ### Práctica 2
 Construcción de la red simulada en GNS3.
 Estado: Completada.
 Documentación: [docs/practica-02](docs/practica-02/README.md)
- 
+
 ### Práctica 3
 Primer programa de Python para representar información de dispositivos.
 Estado: Completada.
- 
-Se desarrolló un programa en Python capaz de representar y mostrar
-información básica de los dispositivos de la infraestructura simulada.
+Descripción: Se desarrolló un programa en Python capaz de representar y mostrar información básica de los dispositivos de la infraestructura simulada.
 Código: [src/dispositivos.py](src/dispositivos.py)
 Documentación: [docs/practica-03](docs/practica-03/README.md)
- 
-Próximo paso:
-Desarrollar programas que permitan procesar y automatizar información
-relacionada con la infraestructura de red.
- 
-## 📄 Licencia
- 
-Este proyecto está bajo la licencia [MIT](LICENSE).
 
-### Practica 4
+Próximo paso: Desarrollar programas que permitan procesar y automatizar información relacionada con la infraestructura de red.
+
+### Práctica 4
+Recursos de colaboración y comunidades de apoyo.
 Estado: Completada.
-Descripcion: Identificamos y analizamos las paginas oficiales y los foros de ayuda de Python, GNS3 y Netmiko. Tambien armamos una guia en equipo para saber como buscar errores de codigo y dejar todo guardado en nuestro repositorio.
- 
-Proximo paso: Seguir programando los scripts en Python y usar estas paginas de ayuda cuando algo no funcione en la red.
+Descripción: Identificamos y analizamos las páginas oficiales y los foros de ayuda de Python, GNS3 y Netmiko. También armamos una guía en equipo para saber cómo buscar errores de código y dejar todo guardado en nuestro repositorio.
+Documentación: [docs/practica-04](docs/practica-04/README.md)
 
-### Actividad 2.4
+Próximo paso: Seguir programando los scripts en Python y usar estas páginas de ayuda cuando algo no funcione en la red.
+
+### Actividad 4.2
 Exploración de Cisco DevNet y las certificaciones de automatización de Cisco.
 Estado: Completada.
 Descripción: Se revisaron los recursos de Cisco DevNet (documentación, Learning Labs, Sandbox y Code Exchange) y las certificaciones vigentes de la ruta Cisco Automation (CCNA, CCNP y CCIE Automation), que sustituyó a la ruta DevNet el 3 de febrero de 2026.
 Documentación: [docs/actividad-devnet](docs/actividad-devnet/README.md) · Reporte: [reporte.pdf](docs/actividad-devnet/reporte.pdf)
 
 Próximo paso: Practicar SSH, RESTCONF y NETCONF en el Sandbox de DevNet antes de conectar Python a los routers de GNS3.
-
 
 ### Práctica 5
 Mi primer script en Python para la automatización de redes.
@@ -124,3 +116,7 @@ Código: [src/automatizacion_telnet.py](src/automatizacion_telnet.py)
 Documentación: [docs/practica-05](docs/practica-05/README.md)
 
 Próximo paso: Cambiar Telnet por SSH con Netmiko y configurar varios routers desde una lista.
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE).

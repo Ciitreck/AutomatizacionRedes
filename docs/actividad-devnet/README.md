@@ -1,4 +1,4 @@
-# Actividad 2.4: Exploración de Cisco DevNet y las certificaciones de automatización de Cisco
+# Actividad 4.2: Exploración de Cisco DevNet y las certificaciones de automatización de Cisco
 
 | Campo | Detalle |
 |-------|---------|
