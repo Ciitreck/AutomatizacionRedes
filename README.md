@@ -115,3 +115,12 @@ Documentación: [docs/actividad-devnet](docs/actividad-devnet/README.md) · Repo
 
 Próximo paso: Practicar SSH, RESTCONF y NETCONF en el Sandbox de DevNet antes de conectar Python a los routers de GNS3.
 
+
+### Práctica 5
+Mi primer script en Python para la automatización de redes.
+Estado: Completada.
+Descripción: En la topología `MiPrimerScript` de GNS3, el Network Automation Container (NAC) se conecta por Telnet al router R1 y un script de Python le asigna Loopback 0 (1.1.1.1) y Loopback 1 (2.2.2.2) y activa OSPF en el área 0. Es el primer paso del proyecto integrador en el que el programa ya no solo representa a los dispositivos (Práctica 3), sino que les envía configuración. Como no se contó con la imagen Cisco IOSv, R1 se implementó con FRRouting; el script también trae los comandos de Cisco IOS.
+Código: [src/automatizacion_telnet.py](src/automatizacion_telnet.py)
+Documentación: [docs/practica-05](docs/practica-05/README.md)
+
+Próximo paso: Cambiar Telnet por SSH con Netmiko y configurar varios routers desde una lista.
